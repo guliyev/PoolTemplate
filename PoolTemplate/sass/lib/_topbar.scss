@@ -1,0 +1,49 @@
+#top-bar {
+    @extend .section-padding;
+    background: $colorBlue;
+    color: white;
+    font-size: 0.8em;
+
+    .container {
+        .column {
+            width: calc(100%/4 - 22px);
+            margin: 0px 10px;
+            @extend .inline-block;
+
+
+
+            &:last-child {
+                text-align: right;
+               
+
+                i {
+                    width: 25px;
+                    height: 22px;
+                    padding: 5px;
+                    box-sizing: border-box;
+                    text-align: center;
+                    margin: 0px 2px;
+                    background: lighten($colorBlue,10%);
+                    border-radius: 5px;
+                  
+                    color: white;
+                    cursor: pointer;
+                    &:last-child{
+                        margin-right:-10px;
+                    }
+                    &:hover {
+                        background: $colorGreen;
+                    }
+                }
+            }
+
+            i {
+                color: $colorGreen;
+            }
+
+            span {
+                margin-left: 10px;
+            }
+        }
+    }
+}

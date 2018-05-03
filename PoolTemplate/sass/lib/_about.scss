@@ -1,0 +1,102 @@
+#about {
+	@extend .section-padding;
+	position: relative;
+	height: 700px;
+	background: url(../images/home-6.png) center top no-repeat;
+	background-size: cover;
+
+	.container {
+		position: relative;
+
+		.about-content {
+			height: 580px;
+			width: 600px;
+			position: absolute;
+			right: 0px;
+			top: 60px;
+
+			.about-content-left {
+				position: absolute;
+				width: 430px;
+				top: 0px;
+				left: 0px;
+				height: 100%;
+				background: $colorBlue;
+				z-index: 3;
+				box-shadow: 0px 1px 15px 2px #101f2e;
+				box-sizing: border-box;
+				padding: 40px;
+				color: white;
+
+				h1 {
+					font-size: 3em;
+					font-weight: bold;
+				}
+
+				p {
+					text-align: justify;
+					line-height: 25px;
+					font-size: 1.3em;
+					text-indent: 30px;
+				}
+				ul{
+					margin:0px;
+					margin-bottom:20px;
+					padding:0px;
+					li{
+						list-style:none;
+						line-height:30px;
+						i{
+							color:$colorGreen;
+							margin-right:10px;
+						}
+					}
+				}
+				button {
+					padding: 15px 40px;
+					text-transform: uppercase;
+					border: 2px solid white;
+					background: transparent;
+					color: white;
+					border-radius: 10px;
+					cursor: pointer;
+
+					&:hover {
+						background: $colorGreen;
+						border: 2px solid $colorGreen;
+					}
+				}
+			}
+
+			.about-content-right {
+				width: 170px;
+				position: absolute;
+				top: 50px;
+				right: 0px;
+				height: 480px;
+				z-index: 2;
+				background: $colorBlue;
+
+				> div {
+					border-bottom: 1px solid darken($colorBlue,20%);
+					box-sizing: border-box;
+					padding: 30px;
+					text-align: center;
+					height: 33.33%;
+
+					h1 {
+						color: white;
+						font-size: 3em;
+						margin: 0px;
+						font-weight: bold;
+					}
+
+					p {
+						font-size: 1.5em;
+						color: lighten($colorBlue,25%);
+					}
+				}
+			}
+		}
+	}
+}

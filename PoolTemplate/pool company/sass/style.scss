@@ -1,0 +1,33 @@
+$maincolor:#658997;
+$backcolor: #42b773;;
+
+
+
+
+
+
+body{
+
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    .container{
+	    margin-right: 20px;
+	     margin: 0px auto;
+	   
+}
+.clear{
+	clear: both;
+
+      }
+
+ }
+
+@import "gn/nav";
+
+@import "gn/constraction";
+@import "gn/about";
+@import "gn/services";
+@import "gn/gallery";
+@import "gn/contact";
+@import "gn/footer";
+

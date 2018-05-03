@@ -1,0 +1,16 @@
+$colorBlue: rgb(30,57,83);
+$colorGreen: rgb(147,200,63);
+$mainFont: 'Dosis', sans-serif;
+$mainWidth:1200px;
+$textColor:#9f9f9f;
+
+
+@import "lib/common";
+@import "lib/topbar";
+@import "lib/navbar";
+@import "lib/slider";
+@import "lib/services";
+@import "lib/about";
+@import "lib/calculator";
+
+

@@ -1,0 +1,58 @@
+
+	.container{
+
+	.cubs{
+	width: 100%;
+    height: 445px;
+    
+    .cub{
+        width: 48%;
+        height: 207px;
+        float: left;
+        &:hover{
+            .num{
+                background: #a9dc56;
+            transition: 0.3s;
+            }
+            
+        }
+     
+        margin: 10px;
+        .constraction_text{
+            width: 470px;
+            display: inline-table;
+            height: 160px;
+            margin-top: -155px;
+            margin-left: 180px;
+           
+            /* background: gray; */
+            position: absolute;
+            h1{
+                color: #42b773;
+            }
+        }
+        .num{
+            width: 130px;
+            height: 130px;
+            border-radius: 100%;
+            border: 3px solid rgba(101, 137, 151, 0.23);
+            margin-top: 30px;
+            margin-left: 30px;
+            position: relative;
+            transition: 0.3s;
+           
+            span{
+                margin-top: 33px;
+                margin-left: 52px;
+                font-size: 3em;
+                position: absolute;
+                color: rgba(101, 137, 151, 0.33);
+            }
+      
+        }
+    }
+    
+     }
+
+
+}

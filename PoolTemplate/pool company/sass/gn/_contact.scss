@@ -1,0 +1,68 @@
+.container{
+    .contact_all{
+        .green_hall{
+          width: 100%;
+          background: #42b773;
+          height: 70px;
+          margin-top: 87px;
+          position: relative;
+              .border_radius{
+                  margin-left: 34pc;
+                       
+                  .social{
+                        width: 44px;
+                        display: inline-block;
+                        margin-top: 21px;
+                        height: 37px;
+
+                         &:hover{
+                            color: yellow;
+                              background: red;
+                        border-radius: 100%;
+                            transition: 0.3s;
+                                cursor: pointer;
+                         }
+                      
+                      
+                    i{
+                              float: left;
+                              margin-top: 4px;
+                              width: 40px;
+                              color: white;
+                              font-size: 30px;
+                              margin-left: 9px;
+                              height: 20px;
+
+                    }
+                }
+              }
+
+        }
+        .down_up{
+            background-image: url(../img/about.png);
+            width: 157px;
+            margin-left: 37pc;
+            position: absolute;
+
+            margin-top: -4pc;
+            height: 67px;
+            /* border: 1px solid; */
+            padding-top: 1px;
+            /* background: rebeccapurple; */
+            i{
+                margin-left: 70px;
+                height: 10px;
+                font-size: 20px;
+                color: white;
+                padding: 0px;
+                transition:all 0.2s;
+                margin-top: 36px;
+                
+              
+                &:hover{
+                    padding-top: 5px;
+                }
+            }
+        }
+    }
+}

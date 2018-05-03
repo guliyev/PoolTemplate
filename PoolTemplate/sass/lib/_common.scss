@@ -1,0 +1,27 @@
+body {
+	margin: 0px;
+	font-family: $mainFont;
+	font-size: 14px;
+    height:3000px;
+}
+
+.container {
+	width: $mainWidth;
+	margin: 0px auto;
+}
+
+.section-padding {
+	padding: 20px 0px;
+}
+
+.inline-block {
+	display: inline-block;
+	margin-right: -4px;
+	margin-bottom: -4px;
+}
+.clear{
+	clear:both;
+}
+* {
+	transition: all .3s ease;
+}

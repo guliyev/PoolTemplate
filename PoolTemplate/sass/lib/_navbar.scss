@@ -1,0 +1,41 @@
+#nav-bar {
+    @extend .section-padding;
+
+
+    .container {
+        .logo {
+            width: $mainWidth/4;
+            float:left;
+            height:30px;
+            @extend .inline-block;
+        }
+
+        .nav {
+            float:right;
+            width: $mainWidth/2;
+            @extend .inline-block;
+            ul{
+                float:right;
+                margin:0px;
+                padding:0px;
+                li{
+                    line-height:30px;
+                    list-style:none;
+                    @extend .inline-block;
+                    text-transform:uppercase;
+                    color:$colorBlue;
+                    font-weight:bold;
+                    font-size:.9em;
+                    margin:0px 10px;
+                    cursor:pointer;
+                    &:hover{
+                        color:$colorGreen;
+                    }
+                    &:first-child{
+                        color:$colorGreen;
+                    }
+                }
+            }
+        }
+    }
+}

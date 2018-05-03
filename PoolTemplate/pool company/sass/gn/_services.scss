@@ -1,0 +1,68 @@
+.container{
+    .service{
+      
+        width: 100%;
+        height: 700px;
+        background: #f3f5f8;
+        
+        .write{
+               /* background: rebeccapurple; */
+    width: 250px;
+    height: 43px;
+    padding-top: 110px;
+    /* margin-top: 5px; */
+    margin-left: 565px;
+            h4{
+                display: inline-block;
+                margin-top: -23px;
+                font-size: 44px;
+            }
+        }
+        i{
+            margin-left: 100px;
+            font-size: 60px;
+        }
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 19px;
+            background: #f3f5f8;
+            margin-top: 0px;
+        }
+        .cub_service{
+            width: 280px;
+            height: 200px;
+          
+            margin: 23px;
+            float: left;
+            
+                color:none;
+                &:hover{
+                    i{
+                        
+                        color: #a9dc56;
+                    }
+                   
+                }
+                i{
+                    color: #42b773;
+                    font-size: 49px;
+                }
+                
+        
+           
+            .service{
+                
+                h6{
+                    text-align: center;
+                display: flow-root;
+                font-size: 20px;
+               
+                }
+            }
+            p{
+                font-size: 13px;
+            }
+        }
+    }
+}

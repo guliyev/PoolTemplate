@@ -1,0 +1,172 @@
+.container{
+    .gallery_cub{
+        width: 100%;
+        height: 500px;
+        
+        
+       .gallery_container{
+        
+        height: 500px;
+        margin-left: 0px;
+        margin-top: 54px;
+        /* background: yellow; */
+      
+     
+        h1{
+            text-align: center;
+            font-size: 35px;
+        }
+        .up_img{
+            background-image: url(../img/up.png);
+            /* border: 1px solid red; */
+            width: 157px;
+            margin-left: 580px;
+            height: 68px;
+            position: absolute;
+            margin-top: -12pc;
+               i{
+                color: green;
+                font-size: 20px;
+                margin-top: 30px;
+                margin-left: 69px;
+                height: 10px;
+                transition: all 0.2s;
+               &:hover{
+                   padding-top: 5px;
+               }
+            }
+        }
+        .foto_cub_big4{
+            width: 280px;
+            height: 200px;
+          
+            float: left;
+           
+          
+        
+            .foto4{
+                width: 140px;
+                height: 100px;
+                float: left;
+                transition: all 0.9s ease;
+                &:hover{
+                    span{
+                        opacity: 1;
+                        transition: all 0.9s ease;
+                    }
+                }
+                span{
+                    background: green;
+                    position: absolute;
+                    width: 80px;
+                    margin-left: 40px;
+                    border-radius: 5px;
+                    font-weight: bold;
+                    font-size: 20px;
+                    text-align: center;
+                    height: 25px;
+                    margin-top: -62px;
+                    opacity:0;
+                   
+                }
+              
+          
+                img{
+                    width: 100%;
+                    height: 100%;
+                    &:hover{
+                        opacity: 0.5;
+                        filter: alpha(opacity=50);
+                    }
+                
+                    
+                }
+            }
+        }
+        .foto_cub{
+            width: 251px;
+            height: 200px;
+            margin-left: -15px;
+            float: left;
+            
+            
+           
+            .foto_cub_small{
+      
+                height: 100px;
+                margin-left: 15px;
+                &:hover{
+                    span{
+                        opacity: 1;
+                        transition: all 0.9s ease;
+                    }
+                }
+                span{
+                    background: green;
+                    position: absolute;
+                    width: 58px;
+                    margin-left: 90px;
+                    text-align: center;
+                    border-radius: 5px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    height: 21px;
+                    margin-top: -60px;
+                    opacity: 0;
+                    
+                }
+                
+              
+                img{
+                    width: 100%;
+                    height: 100%;
+                    &:hover{
+                        opacity: 0.5;
+                        filter: alpha(opacity=50);
+                    }
+                }
+               
+            }
+        }
+        .foto_cub_big{
+            width: 279px;
+    height: 200px;
+ 
+    float: left;
+    &:hover{
+        span{
+            opacity: 1;
+            transition: all 0.9s ease;
+
+            
+        }
+    }
+    span{
+        background: green;
+        position: absolute;
+        width: 80px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 100px;
+        text-align: center;
+        height: 25px;
+        margin-top: -99px;
+        opacity:0;
+        
+       
+    }
+           
+            img{
+                width: 100%;
+                height: 100%;
+                &:hover{
+                    opacity: 0.5;
+                    filter: alpha(opacity=50);
+                }
+              
+            }
+        }
+       }
+    }
+}

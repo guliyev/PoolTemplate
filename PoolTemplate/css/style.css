@@ -1,0 +1,381 @@
+body {
+  margin: 0px;
+  font-family: "Dosis", sans-serif;
+  font-size: 14px;
+  height: 3000px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.section-padding, #top-bar, #nav-bar, #slider, #services, #about, #calculator {
+  padding: 20px 0px;
+}
+
+.inline-block, #top-bar .container .column, #nav-bar .container .logo, #nav-bar .container .nav, #nav-bar .container .nav ul li {
+  display: inline-block;
+  margin-right: -4px;
+  margin-bottom: -4px;
+}
+
+.clear {
+  clear: both;
+}
+
+* {
+  transition: all .3s ease;
+}
+
+#top-bar {
+  background: #1e3953;
+  color: white;
+  font-size: 0.8em;
+}
+#top-bar .container .column {
+  width: calc(100%/4 - 22px);
+  margin: 0px 10px;
+}
+#top-bar .container .column:last-child {
+  text-align: right;
+}
+#top-bar .container .column:last-child i {
+  width: 25px;
+  height: 22px;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0px 2px;
+  background: #2c5378;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+#top-bar .container .column:last-child i:last-child {
+  margin-right: -10px;
+}
+#top-bar .container .column:last-child i:hover {
+  background: #93c83f;
+}
+#top-bar .container .column i {
+  color: #93c83f;
+}
+#top-bar .container .column span {
+  margin-left: 10px;
+}
+
+#nav-bar .container .logo {
+  width: 300px;
+  float: left;
+  height: 30px;
+}
+#nav-bar .container .nav {
+  float: right;
+  width: 600px;
+}
+#nav-bar .container .nav ul {
+  float: right;
+  margin: 0px;
+  padding: 0px;
+}
+#nav-bar .container .nav ul li {
+  line-height: 30px;
+  list-style: none;
+  text-transform: uppercase;
+  color: #1e3953;
+  font-weight: bold;
+  font-size: .9em;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+#nav-bar .container .nav ul li:hover {
+  color: #93c83f;
+}
+#nav-bar .container .nav ul li:first-child {
+  color: #93c83f;
+}
+
+#slider {
+  height: 500px;
+  background-color: #bcd2e7;
+  background-image: url(../images/slider01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -125px;
+  color: #101f2e;
+  position: relative;
+}
+#slider .container .inner-slider {
+  width: 1200px;
+  position: relative;
+}
+#slider .container .inner-slider .slider-content {
+  width: 500px;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  text-align: left;
+  color: white;
+}
+#slider .container .inner-slider .slider-content h1 {
+  font-size: 4em;
+}
+#slider .container .inner-slider .slider-content p {
+  font-size: 1.5em;
+}
+#slider .container .inner-slider .slider-content button {
+  padding: 20px 40px;
+  outline: none;
+  border-radius: 10px;
+  background: #1e3953;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#slider .container .inner-slider .slider-content button:hover {
+  background: #93c83f;
+}
+#slider .container .inner-slider .btn-group {
+  width: 100%;
+  position: absolute;
+  top: 200px;
+}
+#slider .container .inner-slider .btn-group button {
+  border: none;
+  padding: 10px;
+  background: rgba(30, 57, 83, 0.3);
+  font-size: 2em;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  outline: none;
+}
+#slider .container .inner-slider .btn-group button:hover {
+  background: rgba(30, 57, 83, 0.8);
+  color: #93c83f;
+}
+#slider .container .inner-slider .btn-group button:last-child {
+  float: right;
+  margin-right: -100px;
+}
+#slider .container .inner-slider .btn-group button:first-child {
+  float: left;
+  margin-left: -100px;
+}
+
+#services .container .header {
+  text-align: center;
+}
+#services .container .header h1 {
+  font-size: 4em;
+  margin-bottom: 0px;
+}
+#services .container .header p {
+  color: #9f9f9f;
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
+#services .container .services-content {
+  position: relative;
+}
+#services .container .services-content .content-item {
+  position: relative;
+  top: 0px;
+  box-sizing: border-box;
+  padding: 30px;
+  height: 300px;
+  text-align: center;
+  width: 358px;
+  margin: 0px 20px;
+  border: 1px solid gray;
+  float: left;
+}
+#services .container .services-content .content-item .item-top {
+  width: calc(100% - 60px);
+  text-align: center;
+  position: absolute;
+  top: 50px;
+}
+#services .container .services-content .content-item .item-top i {
+  font-size: 4em;
+  color: #93c83f;
+}
+#services .container .services-content .content-item hr {
+  width: 30%;
+  border: 1px solid #93c83f;
+  position: absolute;
+  top: 170px;
+  left: 35%;
+}
+#services .container .services-content .content-item .item-bottom {
+  position: absolute;
+  bottom: 40px;
+  width: calc(100% - 60px);
+}
+#services .container .services-content .content-item:hover {
+  border: 1px solid #93c83f;
+}
+#services .container .services-content .content-item:hover .item-top {
+  top: 30px;
+}
+#services .container .services-content .content-item:hover .item-bottom {
+  bottom: 20px;
+}
+#services .container .services-content .content-item:hover hr {
+  width: 50%;
+  left: 25%;
+}
+
+#about {
+  position: relative;
+  height: 700px;
+  background: url(../images/home-6.png) center top no-repeat;
+  background-size: cover;
+}
+#about .container {
+  position: relative;
+}
+#about .container .about-content {
+  height: 580px;
+  width: 600px;
+  position: absolute;
+  right: 0px;
+  top: 60px;
+}
+#about .container .about-content .about-content-left {
+  position: absolute;
+  width: 430px;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background: #1e3953;
+  z-index: 3;
+  box-shadow: 0px 1px 15px 2px #101f2e;
+  box-sizing: border-box;
+  padding: 40px;
+  color: white;
+}
+#about .container .about-content .about-content-left h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+#about .container .about-content .about-content-left p {
+  text-align: justify;
+  line-height: 25px;
+  font-size: 1.3em;
+  text-indent: 30px;
+}
+#about .container .about-content .about-content-left ul {
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+#about .container .about-content .about-content-left ul li {
+  list-style: none;
+  line-height: 30px;
+}
+#about .container .about-content .about-content-left ul li i {
+  color: #93c83f;
+  margin-right: 10px;
+}
+#about .container .about-content .about-content-left button {
+  padding: 15px 40px;
+  text-transform: uppercase;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#about .container .about-content .about-content-left button:hover {
+  background: #93c83f;
+  border: 2px solid #93c83f;
+}
+#about .container .about-content .about-content-right {
+  width: 170px;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  height: 480px;
+  z-index: 2;
+  background: #1e3953;
+}
+#about .container .about-content .about-content-right > div {
+  border-bottom: 1px solid #030608;
+  box-sizing: border-box;
+  padding: 30px;
+  text-align: center;
+  height: 33.33%;
+}
+#about .container .about-content .about-content-right > div h1 {
+  color: white;
+  font-size: 3em;
+  margin: 0px;
+  font-weight: bold;
+}
+#about .container .about-content .about-content-right > div p {
+  font-size: 1.5em;
+  color: #4079b1;
+}
+
+#calculator {
+  position: relative;
+  height: 500px;
+  background: url(../images/home-5.jpg) center top no-repeat;
+  background-size: cover;
+}
+#calculator .container {
+  position: relative;
+}
+#calculator .container > div {
+  position: absolute;
+  width: 50%;
+  height: 500px;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 1px solid #93c83f;
+}
+#calculator .container .calculator-left {
+  top: 0px;
+  left: 0px;
+}
+#calculator .container .calculator-left h1 {
+  margin: 0px;
+  font-size: 3em;
+  color: #1e3953;
+}
+#calculator .container .calculator-left h1 i {
+  color: gray;
+}
+#calculator .container .calculator-left .calculator-inner {
+  margin-top: 30px;
+  position: relative;
+}
+#calculator .container .calculator-left .calculator-inner > div {
+  position: absolute;
+  padding: 10px;
+  height: 200px;
+  box-sizing: border-box;
+}
+#calculator .container .calculator-left .calculator-inner > div select, #calculator .container .calculator-left .calculator-inner > div input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 20px 0px;
+}
+#calculator .container .calculator-left .calculator-inner > div input {
+  width: calc(100% - 44px);
+}
+#calculator .container .calculator-left .calculator-inner > div select option {
+  background: #93c83f;
+  height: 30px;
+}
+#calculator .container .calculator-left .calculator-inner > div:first-child {
+  width: 50%;
+  left: 0px;
+}
+#calculator .container .calculator-left .calculator-inner > div:last-child {
+  width: 50%;
+  right: 0px;
+}
